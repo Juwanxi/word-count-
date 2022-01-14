@@ -3,6 +3,14 @@
 // convenience to get you started writing code faster.
 //
 
-export const countWords = () => {
-  throw new Error('Remove this statement and implement this function');
+
+export const countWords = (text) => {
+
+  // split text into char array
+  // get the entire length of the input
+  
+  return text.split(" ").length; //Should spit out word count
 };
+
+
+
